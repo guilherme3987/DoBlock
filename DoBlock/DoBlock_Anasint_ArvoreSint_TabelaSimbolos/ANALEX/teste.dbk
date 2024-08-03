@@ -1,0 +1,17 @@
+block main 
+
+const int DIM_LIN = 10 
+const int DIM_COL = 10 
+
+int mat[DIM_LIN][DIM_COL] 
+int i, j 
+do 
+    do  
+   if (i >= j) m[l][c] = 1  
+   else m[l][c] = 0  
+   endif 
+varying j from 0 to DIM_COL-1 
+varying i from 0 to DIM_LIN-1 
+
+endblock 
+
