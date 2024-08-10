@@ -1,5 +1,5 @@
 ```
-Configure o JSON corretamente para não ser necessário importar arquivos .c no cabeçalho.
+Configure o JSON e compile corretamente os arquivos .h e .c para não ser necessário importar arquivos .c no cabeçalho.
 Exemplo: 
 
 project/
