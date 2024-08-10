@@ -2,17 +2,19 @@ Configure o JSON corretamente para não ser necessário importar arquivos .c no 
 Exemplo: 
 project/
 ├── include/
-│   ├── AnaSintDoBlock.h
-│   ├── FuncAuxDoBlock.h
-│   ├── Processador_tokens.h
+│ ├── AnaSintDoBlock.h
+│ ├── FuncAuxDoBlock.h
+│ ├── Processador_tokens.h
 ├── src/
-│   ├── AnaSintDoBlock.c
-│   ├── FuncAuxDoBlock.c
-│   ├── Processador_tokens.c
-│   ├── main.c
+│ ├── AnaSintDoBlock.c
+│ ├── FuncAuxDoBlock.c
+│ ├── Processador_tokens.c
+│ ├── main.c
 ├── .vscode/
-│   ├── tasks.json
+│ ├── tasks.json
 ├── README.md
+
+markdown
 
 ```json
 {
@@ -51,4 +53,4 @@ project/
             "problemMatcher": []
         }
     ]
-} ```
+} 
