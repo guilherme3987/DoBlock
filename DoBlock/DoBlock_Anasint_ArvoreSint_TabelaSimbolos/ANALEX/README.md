@@ -1,5 +1,6 @@
 Configure o JSON corretamente para não ser necessário importar arquivos .c no cabeçalho.
 Exemplo: 
+```
 project/
 ├── include/
 │ ├── AnaSintDoBlock.h
@@ -14,7 +15,6 @@ project/
 │ ├── tasks.json
 ├── README.md
 
-markdown
 
 ```json
 {
