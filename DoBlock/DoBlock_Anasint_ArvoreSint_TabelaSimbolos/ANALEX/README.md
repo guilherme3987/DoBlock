@@ -14,7 +14,7 @@ project/
 │   ├── tasks.json
 ├── README.md
 
-
+```json
 {
     "version": "2.0.0",
     "tasks": [
@@ -51,4 +51,4 @@ project/
             "problemMatcher": []
         }
     ]
-}
+} ```
